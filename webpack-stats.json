@@ -1,0 +1,694 @@
+{
+  "hash": "1542953479ad2c97da12",
+  "version": "5.69.1",
+  "time": 194,
+  "builtAt": 1646255579634,
+  "publicPath": "auto",
+  "outputPath": "/Users/danifornells/Sites/danifornells/demo-webpack/dist",
+  "assetsByChunkName": {
+    "entryOne": [
+      "entryOne.js"
+    ],
+    "entryTwo": [
+      "entryTwo.js"
+    ],
+    "entryThree": [
+      "entryThree.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "entryThree.js",
+      "size": 38,
+      "emitted": false,
+      "comparedForEmit": true,
+      "cached": false,
+      "info": {
+        "javascriptModule": false,
+        "minimized": true,
+        "size": 38
+      },
+      "chunkNames": [
+        "entryThree"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        347
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "entryOne.js",
+      "size": 36,
+      "emitted": false,
+      "comparedForEmit": true,
+      "cached": false,
+      "info": {
+        "javascriptModule": false,
+        "minimized": true,
+        "size": 36
+      },
+      "chunkNames": [
+        "entryOne"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        876
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "entryTwo.js",
+      "size": 36,
+      "emitted": false,
+      "comparedForEmit": true,
+      "cached": false,
+      "info": {
+        "javascriptModule": false,
+        "minimized": true,
+        "size": 36
+      },
+      "chunkNames": [
+        "entryTwo"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        666
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    }
+  ],
+  "chunks": [
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 37,
+      "sizes": {
+        "javascript": 37
+      },
+      "names": [
+        "entryThree"
+      ],
+      "idHints": [],
+      "runtime": [
+        "entryThree"
+      ],
+      "files": [
+        "entryThree.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "ef69158684fb5c2374ac",
+      "childrenByOrder": {},
+      "id": 347,
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 37,
+          "sizes": {
+            "javascript": 37
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/danifornells/Sites/danifornells/demo-webpack/src/entry-three.js",
+          "name": "./src/entry-three.js",
+          "nameForCondition": "/Users/danifornells/Sites/danifornells/demo-webpack/src/entry-three.js",
+          "index": 2,
+          "preOrderIndex": 2,
+          "index2": 2,
+          "postOrderIndex": 2,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 986,
+          "issuerId": null,
+          "chunks": [
+            347
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./src/entry-three.js",
+              "loc": "entryThree",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [],
+          "providedExports": null,
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 1:0-37",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "entryThree",
+          "request": "./src/entry-three.js"
+        }
+      ]
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 35,
+      "sizes": {
+        "javascript": 35
+      },
+      "names": [
+        "entryTwo"
+      ],
+      "idHints": [],
+      "runtime": [
+        "entryTwo"
+      ],
+      "files": [
+        "entryTwo.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "3ae13193642aa98142e5",
+      "childrenByOrder": {},
+      "id": 666,
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 35,
+          "sizes": {
+            "javascript": 35
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/danifornells/Sites/danifornells/demo-webpack/src/entry-two.js",
+          "name": "./src/entry-two.js",
+          "nameForCondition": "/Users/danifornells/Sites/danifornells/demo-webpack/src/entry-two.js",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 898,
+          "issuerId": null,
+          "chunks": [
+            666
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./src/entry-two.js",
+              "loc": "entryTwo",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [],
+          "providedExports": null,
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 1:0-35",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "entryTwo",
+          "request": "./src/entry-two.js"
+        }
+      ]
+    },
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 35,
+      "sizes": {
+        "javascript": 35
+      },
+      "names": [
+        "entryOne"
+      ],
+      "idHints": [],
+      "runtime": [
+        "entryOne"
+      ],
+      "files": [
+        "entryOne.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "e379d9feb11c8813ccb5",
+      "childrenByOrder": {},
+      "id": 876,
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 35,
+          "sizes": {
+            "javascript": 35
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/danifornells/Sites/danifornells/demo-webpack/src/entry-one.js",
+          "name": "./src/entry-one.js",
+          "nameForCondition": "/Users/danifornells/Sites/danifornells/demo-webpack/src/entry-one.js",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 60,
+          "issuerId": null,
+          "chunks": [
+            876
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./src/entry-one.js",
+              "loc": "entryOne",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [],
+          "providedExports": null,
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 1:0-35",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "entryOne",
+          "request": "./src/entry-one.js"
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 35,
+      "sizes": {
+        "javascript": 35
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/danifornells/Sites/danifornells/demo-webpack/src/entry-one.js",
+      "name": "./src/entry-one.js",
+      "nameForCondition": "/Users/danifornells/Sites/danifornells/demo-webpack/src/entry-one.js",
+      "index": 0,
+      "preOrderIndex": 0,
+      "index2": 0,
+      "postOrderIndex": 0,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 60,
+      "issuerId": null,
+      "chunks": [
+        876
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./src/entry-one.js",
+          "loc": "entryOne",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 1:0-35",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 0
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 35,
+      "sizes": {
+        "javascript": 35
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/danifornells/Sites/danifornells/demo-webpack/src/entry-two.js",
+      "name": "./src/entry-two.js",
+      "nameForCondition": "/Users/danifornells/Sites/danifornells/demo-webpack/src/entry-two.js",
+      "index": 1,
+      "preOrderIndex": 1,
+      "index2": 1,
+      "postOrderIndex": 1,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 898,
+      "issuerId": null,
+      "chunks": [
+        666
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./src/entry-two.js",
+          "loc": "entryTwo",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 1:0-35",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 0
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 37,
+      "sizes": {
+        "javascript": 37
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/danifornells/Sites/danifornells/demo-webpack/src/entry-three.js",
+      "name": "./src/entry-three.js",
+      "nameForCondition": "/Users/danifornells/Sites/danifornells/demo-webpack/src/entry-three.js",
+      "index": 2,
+      "preOrderIndex": 2,
+      "index2": 2,
+      "postOrderIndex": 2,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 986,
+      "issuerId": null,
+      "chunks": [
+        347
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./src/entry-three.js",
+          "loc": "entryThree",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [],
+      "providedExports": null,
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 1:0-37",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 0
+    }
+  ],
+  "entrypoints": {
+    "entryOne": {
+      "name": "entryOne",
+      "chunks": [
+        876
+      ],
+      "assets": [
+        {
+          "name": "entryOne.js",
+          "size": 36
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 36,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "entryTwo": {
+      "name": "entryTwo",
+      "chunks": [
+        666
+      ],
+      "assets": [
+        {
+          "name": "entryTwo.js",
+          "size": 36
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 36,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "entryThree": {
+      "name": "entryThree",
+      "chunks": [
+        347
+      ],
+      "assets": [
+        {
+          "name": "entryThree.js",
+          "size": 38
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 38,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "namedChunkGroups": {
+    "entryOne": {
+      "name": "entryOne",
+      "chunks": [
+        876
+      ],
+      "assets": [
+        {
+          "name": "entryOne.js",
+          "size": 36
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 36,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "entryTwo": {
+      "name": "entryTwo",
+      "chunks": [
+        666
+      ],
+      "assets": [
+        {
+          "name": "entryTwo.js",
+          "size": 36
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 36,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "entryThree": {
+      "name": "entryThree",
+      "chunks": [
+        347
+      ],
+      "assets": [
+        {
+          "name": "entryThree.js",
+          "size": 38
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 38,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "errors": [],
+  "errorsCount": 0,
+  "warnings": [],
+  "warningsCount": 0,
+  "children": []
+}
